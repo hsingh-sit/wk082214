@@ -1,6 +1,3 @@
-# Password reset (reset.php) - vulnerable token reuse
-cat > reset.php << 'EOF'
-<!DOCTYPE html>
 <html>
 <body>
 <h2>Password Reset</h2>
@@ -18,4 +15,3 @@ if ($_GET['token'] == 'reset123fixedtoken') {
 ?>
 </body>
 </html>
-EOF
