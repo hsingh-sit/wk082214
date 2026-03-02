@@ -1,6 +1,3 @@
-# index.php - app menu
-cat > index.php << 'EOF'
-<!DOCTYPE html>
 <html>
 <body>
 <h1>Week 08 Lab - Vulnerable Auth App</h1>
@@ -13,4 +10,4 @@ cat > index.php << 'EOF'
 </ul>
 </body>
 </html>
-EOF
+
